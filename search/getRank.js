@@ -1,3 +1,4 @@
+//등수 구하기
 function solution(n, arr) {
   let answer = [];
   for (let i = 0; i < n; i++) {
