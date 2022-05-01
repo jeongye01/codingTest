@@ -1,5 +1,5 @@
 function solution(n, arr) {
-  let ans = [];
+  let answer = [];
   for (let i = 0; i < n; i++) {
     let order = 1;
     for (let j = 0; j < n; j++) {
@@ -8,9 +8,9 @@ function solution(n, arr) {
       }
       if (arr[i] < arr[j]) order += 1;
     }
-    ans.push(order);
+    answer.push(order);
   }
-  return ans;
+  return answer;
 }
 
 console.log(solution(5, [87, 89, 92, 100, 76]));
