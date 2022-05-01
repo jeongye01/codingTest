@@ -1,6 +1,6 @@
 //격자판 최대합
 function solution(arr) {
-  let ans = 0,
+  let ans = Number.MIN_SAFE_INTEGER,
     n = arr.length;
 
   for (let i = 0; i < n; i++) {
