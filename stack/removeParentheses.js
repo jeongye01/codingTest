@@ -1,4 +1,4 @@
-//괄호문자 제거
+//괄호문자 제거.
 function solution(str) {
   let answer = "";
   let stack = [];
